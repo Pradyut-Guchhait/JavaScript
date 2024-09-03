@@ -1,3 +1,4 @@
+//================CONVERSIONS================//
 let score = 33; //Declaring a variable
 
 //prints the datatype of score
@@ -34,5 +35,6 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(typeof stringNumber);
 console.log(stringNumber);
+
 
 

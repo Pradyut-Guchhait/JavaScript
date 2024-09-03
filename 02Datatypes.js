@@ -1,3 +1,4 @@
+//================Datatypes================//
 "use strict"; //Treats all JS code as newer Version
 // alert(3+3) it will not work as we are using node js
 //Code Readability should be good
