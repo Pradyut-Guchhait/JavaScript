@@ -35,7 +35,8 @@ const myFunction = function(){
 
 //typeof
 console.log(typeof bigInt); //bigint
-console.log(typeof outsideTemp); //object
+console.log(typeof outsideTemp); //object because null is a special case in javascript and it assigns all the 8 bits of it as 0 , 
+                                //therefore while the javascript interprets it , it reads the first three values so it gives back the value  as Object.
 console.log(typeof isLoggedIn); //boolean
 console.log(typeof heros); //object
 console.log(typeof myFunction); //function
